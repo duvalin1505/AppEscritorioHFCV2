@@ -1,0 +1,30 @@
+{
+  "name": "appescritoriohfcv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "duvalin1505",
+        "repo": "AppEscritorioHFCV2"
+      }
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^21.2.0"
+  },
+  "dependencies": {
+    "electron-builder": "^23.6.0",
+    "electron-log": "^4.4.8",
+    "electron-updater": "^5.3.0"
+  }
+}
